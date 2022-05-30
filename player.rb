@@ -10,4 +10,16 @@ class Player
     @number
   end
 
+  def lost?
+    @lives == 0
+  end
+
+  def remaining_lives
+    @lives
+  end
+
+  def wrong_answer
+    @lives -= 1
+  end
+
 end
