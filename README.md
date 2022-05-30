@@ -9,11 +9,10 @@ The player class will store the players lives and score. Player number required 
 
 #### Methods
 * get_answer
-* gain_point
 * lose_life
 
 ### Game
-Stores players 
+Stores players. Nothing required to initialize
 
 #### Methods
 * game_status
@@ -22,4 +21,4 @@ Stores players
 * play
 
 #
-Game loop and current_player will be in Game. I/O will be in Player
+Game loop and current_player will be in Game. I/O will be in Main
